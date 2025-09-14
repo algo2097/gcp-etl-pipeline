@@ -28,8 +28,8 @@ The system was designed to demonstrate scalable cloud data engineering with laye
 ## Tools & Services Used
 1. Google Cloud Storage (GCS) → Data Lake for raw & processed files
 2. BigQuery → External tables, staging (bronze/silver), curated (gold)
-Dataproc / PySpark → Data exploration, cleaning, enrichment
-Databricks → Interactive development & debugging notebooks
-Cloud Composer (Airflow) → Orchestration of pipeline DAGs
-Great Expectations (style validation) → Data quality checks (duplicates, nulls, schema)
-Power BI → Dashboarding & reporting
+3. PySpark → Data exploration, cleaning, enrichment
+4. Databricks → Interactive development & debugging notebooks
+5. Cloud Composer (Airflow 3) → Orchestration of pipeline DAGs
+6. Great Expectations (style validation) → Data quality checks (duplicates, nulls, schema)
+7. Power BI → Dashboarding & reporting
