@@ -9,7 +9,7 @@ The system was designed to demonstrate scalable cloud data engineering with laye
             BigQuery External Tables (RAW)
                        │
                        ▼
-        PySpark (Dataproc / Databricks) EDA & Cleansing
+        PySpark (Databricks) EDA & Cleansing
                        │
                        ▼
            Transformed Tables (BRONZE / SILVER)
@@ -21,4 +21,4 @@ The system was designed to demonstrate scalable cloud data engineering with laye
                  Curated Tables (GOLD)
                        │
                        ▼
-            Power BI / Superset Dashboards
+            Power BI Dashboards
