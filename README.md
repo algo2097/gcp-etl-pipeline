@@ -71,6 +71,6 @@ To enable integration across services, the following key roles were required:
 
 # 🧑‍💻 Author
 
-👤 Sarang Kulkarni \n
+👤 Sarang Kulkarni
 Data Engineer | Cloud ETL | Azure | GCP | AWS
 LinkedIn: https://www.linkedin.com/in/sarangkulkarni97/
