@@ -33,3 +33,13 @@ The system was designed to demonstrate scalable cloud data engineering with laye
 5. Cloud Composer (Airflow 3) → Orchestration of pipeline DAGs
 6. Great Expectations (style validation) → Data quality checks (duplicates, nulls, schema)
 7. Power BI → Dashboarding & reporting
+
+
+## IAM Policies & Permissions
+
+To enable integration across services, the following key roles were required:
+
+1. BigQuery → roles/bigquery.dataOwner, roles/bigquery.jobUser
+2. GCS → roles/storage.objectAdmin
+3. Composer → roles/composer.worker
+4. Service Accounts → Granted cross-service access for BigQuery, GCS, and Dataproc
